@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+      scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+      font-family: "Poppins", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer {
+      padding: 5rem 0;
+      background-color: #182334;
+      color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+footer h2 {
+      color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer li {
+      list-style: none;
+      font-size: 1.5rem;
+      font-weight: lighter;
+      color: #fff;
+      cursor: pointer;
+      margin: 1rem 0;
+}
+
+footer li:hover {
+      color: var(--primary-color);
+}
+
+footer .fontawesome-style {
+      font-size: 2.3rem;
+      color: var(--primary-color);
+      background-color: transparent;
+      width: 0rem;
+      height: 0rem;
+      margin: 2rem 0;
+      cursor: pointer;
+}
+
+footer .fontawesome-style:hover {
+      transition: all 1s;
+      animation: rotatefont 1s linear infinite alternate-reverse;
+      color: #fff;
+}
+
+@keyframes rotatefont {
+      0% {
+            transform: scale(0.6);
+      }
+      100% {
+            transform: scale(1.2);
+      }
+}
+
+footer .main-hero-para {
+      margin: 0;
 }
