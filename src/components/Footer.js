@@ -16,7 +16,7 @@ const Footer = () => {
                         href="https://www.linkedin.com/in/hamza-muhammad-b514b1a1/"
                         target="_hamza"
                       >
-                        <i class="fab fa-linkedin fontawesome-style text-warning"></i>
+                        <i className="fab fa-linkedin fontawesome-style text-warning"></i>
                       </a>
                     </div>
                     <div className="col-3 mx-auto">
@@ -24,7 +24,7 @@ const Footer = () => {
                         href="mailto:hamzamuhammad7576@gmail.com"
                         target="_gmail"
                       >
-                        <i class="fas fa-mail-bulk fontawesome-style text-warning"></i>
+                        <i className="fas fa-mail-bulk fontawesome-style text-warning"></i>
                       </a>
                     </div>
                   </div>

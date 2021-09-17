@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "../components/Nav";
 const Skills = () => {
   return (
     <div className="container-fluid bg-dark text-white p-3">
