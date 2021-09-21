@@ -19,6 +19,8 @@ const Skills = () => {
             <h3>React Router</h3>
             <h3>Material-ui</h3>
             <h3>Scss</h3>
+            <h3>Styled Components</h3>
+            <h3>React Router</h3>
           </div>
         </div>
         <div className="col-md-6 pt-4">

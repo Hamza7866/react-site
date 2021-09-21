@@ -1,5 +1,13 @@
 const projectApi = [
   {
+    id: 4,
+    title: "Tesla Clone",
+    info: "Tesla Clone using React and Styled ",
+    github: "https://github.com/Hamza7866/tesla-clone",
+    website: "https://reacteslaclone.netlify.app/",
+    image: "../../images/tesla.png",
+  },
+  {
     id: 1,
     title: "Pizza Store",
     info: "Pizza store app is a web application that allows users to look up top pizza store in Nyc.",
@@ -22,14 +30,6 @@ const projectApi = [
     github: "https://github.com/Hamza7866/hope",
     website: "https://dazzling-hodgkin-54b385.netlify.app/",
     image: "../../images/hope.png",
-  },
-  {
-    id: 4,
-    title: "Homes",
-    info: "Homes is fully responsive websites build using Html and Css Grid.",
-    github: "https://github.com/Hamza7866/house",
-    website: "https://peaceful-rosalind-ab8b4d.netlify.app/",
-    image: "../../images/homes.png",
   },
 ];
 
